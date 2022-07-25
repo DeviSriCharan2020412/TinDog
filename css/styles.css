@@ -1,0 +1,94 @@
+body{
+    font-family: 'Montserrat';
+}
+
+.container-fluid{
+    padding: 3% 10%;
+}
+
+/* Title Section */
+
+#title{
+    background-color: #ff4c68;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+#title h1{
+    font-weight: 600;
+    font-size: clamp(2rem, 5vw + 1rem, 3.5rem);
+    line-height: 1.5;
+}
+
+.title-image{
+    width: 50%;
+}
+
+/* Features Section */
+
+#features h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+
+#features i{
+    color: #ff4c68;
+    padding-bottom: 1rem;
+}
+
+#features i:hover{
+    color: #ef8172;
+}
+
+/* Testimonials Section */
+
+#testimonials,#press{
+    background-color: #ff4c68;
+}
+
+.testimonial-text{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+/* Press Section */
+
+.press-logo{
+    width: 35%;
+}
+
+/* Call to Action Section */
+
+#cta{
+    background-color: #ff4c68;
+}
+
+@media (min-width: 576px) {
+    #cta button{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 768px){
+    .nav-item{
+        padding: 0 18px;
+    }
+}
+
+@media (min-width: 1200px){
+    .title-image{
+        margin: 2rem;
+        transform: rotate(30deg);
+    }
+}
